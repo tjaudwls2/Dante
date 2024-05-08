@@ -5,9 +5,13 @@ using UnityEngine;
 public class opendoor : MonoBehaviour
 {
     Collider Collider;
+    Animator anim;
+    Player player;
     private void Start()
     {
         Collider = GetComponent<Collider>();
+        anim = GetComponent<Animator>();
+        player = GameManager.Instance.player.GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -15,8 +19,18 @@ public class opendoor : MonoBehaviour
     {
         switch (GameManager.Instance.RCC)
         {
-            case GameManager.room_clear_check.clear: Collider.enabled = false;                      break;
-            case GameManager.room_clear_check.battle: Collider.enabled = true; break;
+            case GameManager.room_clear_check.clear:
+                if (player.rush_Check != rush_check.rush)
+                {
+                    Collider.isTrigger = true;
+                    anim.SetBool("Open", true);
+                }
+                break;
+            case  GameManager.room_clear_check.battle:
+                Collider.isTrigger = false;
+                anim.SetBool("Open", false);
+
+                break;
         }    
     }
 }

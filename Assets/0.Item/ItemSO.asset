@@ -1,0 +1,2415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8b959fc9f28914ea42b430e0004d10, type: 3}
+  m_Name: ItemSO
+  m_EditorClassIdentifier: 
+  item:
+  - name: "\uB4E4\uC9D0\uC2B9 \uC190\uD1B1"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: -0.1
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB4E4\uC9D0\uC2B9 \uC774\uBE68"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 1
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC624\uB798\uB41C \uD0C0\uC774\uC5B4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0.5
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uACE0\uBB34\uC2E0"
+    State:
+      hp: 0
+      speed: 5
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB3CB\uBCF4\uAE30 \uC548\uACBD"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 10
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC57D\uACFC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1.1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC624\uB798\uB41C \uCC45"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1.3
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB9C8\uBAA8\uB41C \uD720"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1.1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB4E4\uC9D0\uC2B9 \uBF08"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0.3
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: -0.3
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC624\uB798\uB41C \uC5D4\uC9C4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0.1
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1.05
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uCC45\uAC08\uD53C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 5
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1.05
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC1A1\uD3B8"
+    State:
+      hp: 0
+      speed: 2
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1.05
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC791\uC740 \uC8FC\uBA38\uB2C8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uBCF4\uC790\uAE30"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uACE4\uC7A5"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB450\uAC74"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 1
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB3C4\uB451\uC758 \uC7A5\uAC11"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uAC04\uC2DD \uBCF4\uB530\uB9AC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uB4E4\uC9D0\uC2B9 \uB208\uC54C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC9D0\uC2B9\uB3C4\uAC10"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uD574\uC2DC\uACC4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC2DC\uACC4\uBC14\uB298"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBC24\uC591\uAC31"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC234\uC9C4 \uC548\uACBD"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 10
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 0
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC0AC\uD0D5"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBAA9\uD654"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC9D0\uC2B9 \uD574\uBD80\uB3C4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uAC15\uC544\uC9C0 \uD68C\uD654\uB3C4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uACE0\uC591\uC774 \uD68C\uD654\uB3C4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uAC00\uB798\uB5A1"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1.3
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC9D0\uC2B9 \uB2E4\uB9AC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 2
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC0C8 \uD720"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC778\uB450"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1.5
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uB3C5\uC11C\uB300"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1.2
+      critcal_Per: 1.2
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uD0C8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 5
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uB3D9\uBB3C \uC11C\uC801 \uC138\uD2B8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uC655\uC758 \uBAA9\uD654"
+    State:
+      hp: 0
+      speed: 20
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uC608\uB9AC\uD55C \uBE44\uB140"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uCC9C\uBB38\uC2DC\uACC4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uC218\uBC30\uBA85\uB2E8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uD2BC\uD2BC\uD55C \uD0C0\uC774\uC5B4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 2
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uCC23\uC5B4\uC9C4 \uCC45"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 0
+      Attack_speed: 1
+      rush_power: 2
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uBC94\uC758 \uBC1C\uD1B1"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 0.5
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uC8FC\uB9AC\uD2C0\uAE30"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uD68C\uC0DD\uC758 \uBD80\uC801"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uD0D0\uAD00\uC758 \uBD80\uCC44"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uBC94\uC758 \uC774\uBE68"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 2
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uD558\uD68C\uD0C8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 35
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC7A5\uAD70\uC758 \uAC80"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 10
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 0.3
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC601\uD63C \uBC14\uD034"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 5
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 2
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uD0C4\uC131 \uD0C0\uC774\uC5B4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC5BC\uB8E9\uC9C4 \uC0AC\uC774\uB4DC\uBBF8\uB7EC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uAE68\uC9C4 \uD5EC\uBA67"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC791\uC740 \uBCFC\uD2B8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uAD8C\uD22C \uAE00\uB7EC\uBE0C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uCC9C\uAD6D\uC81C \uC2A4\uD504\uB9C1"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uD638\uC2E0\uC6A9 \uB2E8\uB3C4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC560\uC644\uC6A9 \uCC9C\uC0AC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC560\uC644\uC6A9 \uC545\uB9C8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC560\uC644\uB3D9\uBB3C \uAC04\uC2DD"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uC601\uD63C \uAE30\uB984"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uBD80\uC801 (\uC950)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uBD80\uC801 (\uD1A0\uB07C)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 0
+  - name: "\uBD80\uC801 (\uC6D0\uC22D\uC774)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC801 (\uB3FC\uC9C0)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC801 (\uC591)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC801 (\uB9D0)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 2
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC801 (\uB2ED)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC758\uC2DD\uC6A9 \uCE7C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC2E0\uC131\uD55C \uB77C\uC774\uD2B8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uD074\uB7EC\uCE58 \uBC31"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBCBD\uB3CC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC758\uC2DD\uC6A9 \uBC29\uC6B8"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC5BC\uC5B4\uBD99\uC740 \uC778\uD615"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uC624\uB798\uB41C \uBF08"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC2DD\uB41C \uBFD4"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD88\uD0C0\uB294 \uC778\uD615"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uB3C4\uAD74\uAFBC\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 1
+  - name: "\uBD80\uC801 (\uAC1C)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uBD80\uC801 (\uBC40)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uC0C1\uC778\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uC218\uD638 \uBD80\uC801"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uBD88\uD0C0\uB294 \uBC14\uD034"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uCDA9\uC804\uB41C \uBC30\uD130\uB9AC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uACFC\uBD80\uD654 \uBC30\uD130\uB9AC"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uB2E8\uB2E8\uD55C \uD5EC\uBA67"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 2
+  - name: "\uBD80\uC801 (\uD638\uB791\uC774)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uB3C4\uC801\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uC131\uC9C1\uC790\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uC804\uC0AC\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uB9C8\uBC95\uC0AC\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uCC9C\uC0C1\uC758 \uBC14\uD034"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uC9C0\uC625\uC758 \uBC14\uD034"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uC2DC\uC0B0\uD608\uD558"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 3
+  - name: "\uBD80\uC801 (\uC6A9)"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC655\uC758 \uC601\uD63C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC800\uC2B9\uC0AC\uC790\uC758 \uBD93"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC0AC\uC2E0\uC758 \uB0AB"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC5FC\uB77C\uC758 \uB3C4\uB07C"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4
+  - name: "\uC544\uB204\uBE44\uC2A4\uC758 \uC9C0\uD321\uC774"
+    State:
+      hp: 0
+      speed: 0
+      Attack_power: 0
+      Shield_power: 0
+      critcal_Damage: 0
+      critcal_Per: 0
+      Attack_speed: 0
+      rush_power: 0
+      rush_time: 0
+      evasion: 0
+    xstate:
+      hp: 1
+      speed: 1
+      Attack_power: 1
+      Shield_power: 1
+      critcal_Damage: 1
+      critcal_Per: 1
+      Attack_speed: 1
+      rush_power: 1
+      rush_time: 1
+      evasion: 1
+    itemtype: 4

@@ -3,24 +3,29 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mob
+  - Wall
+  - Attack_Object
+  - Attack_Enemy
+  - Stay
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcess
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Plane
+  - Spawnbox
+  - Wall
+  - hit
+  - mob
+  - rush
+  - Spawnbox_R
+  - Attack_Enemy
+  - Player
+  - rushpet
   - 
   - 
   - 
